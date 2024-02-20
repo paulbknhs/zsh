@@ -5,7 +5,7 @@ fi
 source "/home/paul/.config/zsh/themes/powerlevel10k/powerlevel10k.zsh-theme"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
+export PATH="/home/paul/.config/awesome/rofi:$PATH"
 export ZSH_CONFIG=$HOME/.config/zsh
 export ZSH=$ZSH_CONFIG/oh-my-zsh
 # export ZDOTDIR="$ZSH_CONFIG/antidote"
