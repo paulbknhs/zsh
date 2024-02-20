@@ -10,3 +10,8 @@ omz plugin load web-search
 omz plugin load gh
 omz plugin load zsh-navigation-tools
 omz plugin load command-not-found
+omz plugin load docker
+omz plugin load fzf
+omz plugin load gcloud
+omz plugin load nmap
+omz plugin load systemd
