@@ -7,6 +7,6 @@
 ```bash
 git clone https://github.com/paulbknhs/zsh $HOME/.config/zsh
 cd $HOME/.config/zsh/
-ln -S zsh_plugins.txt $/.zsh_plugins.txt
-ln -S rc.zsh $/.zshrc
+ln -S zsh_plugins.txt $HOME/.zsh_plugins.txt
+ln -S rc.zsh $HOME/.zshrc
 ```
