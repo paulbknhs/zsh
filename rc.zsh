@@ -5,7 +5,7 @@ fi
 source "/home/paul/.config/zsh/themes/powerlevel10k/powerlevel10k.zsh-theme"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export PATH="/home/paul/.local/bin/:home/paul/.config/awesome/rofi:$PATH"
+export PATH="/home/paul/.virtualenvs/:/home/paul/.local/bin/:home/paul/.config/awesome/rofi:$PATH"
 export ZSH_CONFIG=$HOME/.config/zsh
 export ZSH=$ZSH_CONFIG/oh-my-zsh
 export WINIT_X11_SCALE_FACTOR=1
@@ -16,3 +16,4 @@ source "$ZSH_CONFIG/alias.zsh"
 source "$ZSH_CONFIG/functions.zsh"
 
 source /home/paul/.config/broot/launcher/bash/br
+export PATH=$PATH:/home/paul/.local/bin
