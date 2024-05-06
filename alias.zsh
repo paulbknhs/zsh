@@ -21,7 +21,6 @@ alias ls="lsd --color=always --icon=always --group-directories-first"
 alias ll="lsd --color=always --git --long --header --icon=always --group-directories-first"
 alias la="lsd --color=always --git --long --header --icon=always --group-directories-first --almost-all"
 alias cat="bat"
-alias zcon='cd $ZSH_CONFIG && ls'
 alias :q='exit'
 alias gacp='git add . && git commit && git push'
 alias ga='git add .'
@@ -39,6 +38,12 @@ alias drm='sudo docker rm'
 alias dls='sudo docker ps'
 alias drun='sudo docker run'
 alias ch='cheat -c'
-alias doch='sudo !!'
 alias t='tmux'
 alias gitc='git clone'
+alias ic='kitten icat'
+alias tr='trash'
+alias status='sudo systemctl status'
+alias senable='sudo systemctl enable'
+alias sdisable='sudo systemctl disable'
+alias sstop='sudo systemctl stop'
+alias sstart='sudo systemctl start'
