@@ -7,7 +7,7 @@ feat. [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and [antidote](https://git
 #### 0. Install all dependencies
 
 ```bash
-sudo pacman -S zsh git curl broot lsd fzf ttf-noto-nerd
+sudo pacman -S zsh git curl bat broot lsd fzf ttf-noto-nerd
 ```
 
 #### 1. Clone the repo into .config
