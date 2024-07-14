@@ -16,4 +16,3 @@ source "$ZSH_CONFIG/alias.zsh"
 source "$ZSH_CONFIG/functions.zsh"
 
 source /home/paul/.config/broot/launcher/bash/br
-welcome
