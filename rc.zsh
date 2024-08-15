@@ -1,3 +1,5 @@
+ZSH_THEME="agnoster" # set by `omz`
+
 # Theme configuration for powerlevel10k
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -15,4 +17,3 @@ source "$ZSH_CONFIG/plugins.zsh"
 source "$ZSH_CONFIG/alias.zsh"
 source "$ZSH_CONFIG/functions.zsh"
 
-source /home/paul/.config/broot/launcher/bash/br
