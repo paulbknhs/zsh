@@ -51,3 +51,4 @@ alias nv='nvim'
 alias snv='sudo nvim'
 alias kssh='kitten ssh'
 alias jcrun="javac Main.java && java Main"
+alias howto='gh copilot suggest'
