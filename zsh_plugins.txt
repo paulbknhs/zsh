@@ -1,5 +1,5 @@
 # THEME
-# romkatv/powerlevel10k
+romkatv/powerlevel10k
 
 # PLUGINS
 zsh-users/zsh-completions
