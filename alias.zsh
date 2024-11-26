@@ -17,9 +17,9 @@ alias sys="systemctl --quiet --full"
 alias dmesg="dmesg --color=auto"
 
 # basic convenience
-alias ls="lsd --color=always --icon=always --group-directories-first"
-alias ll="lsd --color=always --git --long --header --icon=always --group-directories-first"
-alias la="lsd --color=always --git --long --header --icon=always --group-directories-first --almost-all"
+alias ls="lsd --hyperlink=always --color=always --icon=always --group-directories-first"
+alias ll="lsd --hyperlink=always --color=always --git --long --header --icon=always --group-directories-first"
+alias la="lsd --hyperlink=always --color=always --git --long --header --icon=always --group-directories-first --almost-all"
 alias cat="bat"
 alias :q='exit'
 alias gacp='git add . && git commit && git push'
@@ -52,3 +52,4 @@ alias snv='sudo nvim'
 alias kssh='kitten ssh'
 alias jcrun="javac Main.java && java Main"
 alias howto='gh copilot suggest'
+alias icat='kitten icat'

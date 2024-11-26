@@ -1,4 +1,4 @@
-ZSH_THEME="agnoster" # set by `omz`
+# ZSH_THEME="agnoster" # set by `omz`
 
 # Theme configuration for powerlevel10k
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
