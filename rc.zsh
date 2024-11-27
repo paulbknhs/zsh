@@ -16,3 +16,9 @@ source "$ZSH_CONFIG/plugins.zsh"
 source "$ZSH_CONFIG/alias.zsh"
 source "$ZSH_CONFIG/functions.zsh"
 
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/paul/.dart-cli-completion/zsh-config.zsh ]] && . /home/paul/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
