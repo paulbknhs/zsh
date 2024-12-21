@@ -1,13 +1,14 @@
-# My zsh configuration
+# My customzized zsh configuration
 
-feat. [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and [antidote](https://github.com/mattmc3/antidote)
+- as shell framework [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+- as plugin manager [antidote](https://github.com/mattmc3/antidote)
 
 ## Installation
 
 ### 0. Install all dependencies
 
 ```bash
-sudo pacman -S zsh git curl bat broot lsd fzf ttf-noto-nerd
+sudo pacman -S zsh git curl bat lsd fzf ttf-noto-nerd
 ```
 
 ### 1. Clone the repo into .config
@@ -16,21 +17,18 @@ sudo pacman -S zsh git curl bat broot lsd fzf ttf-noto-nerd
 git clone https://github.com/paulbknhs/zsh $HOME/.config/zsh
 ```
 
-### 2. Create links for all important files
+### 2. Create softlinks so zsh finds all necessary files
 
 ```bash
 ln -sf ~/.config/zsh/zsh_plugins.txt ~/.zsh_plugins.txt
 ln -sf ~/.config/zsh/rc.zsh ~/.zshrc
+ln -sf ~/.config/zsh/.p10k.zsh ~/.p10k.zsh
 ```
 
-### 3. Initialize broot and other plugins
+### 4. Set zsh as your shell
+
+> you will probably be asked to update oh-my-zsh
 
 ```bash
-broot
-```
-
-### 4. Reload or start the zsh instance
-
-```bash
-exec zsh
+chsh $(whoami) && exec zsh
 ```

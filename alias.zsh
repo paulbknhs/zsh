@@ -10,7 +10,6 @@ alias getup="sudo pacman --color=always --noconfirm -Syu"
 alias ls="ls --color=auto"
 alias grep="rg --color=auto"
 alias diff="diff --color=auto"
-alias make="make -B | sed -e 's/\\(.*\\[.*\\]\\)/\\o033[34m\\1\\o033[0m/'"
 alias gcc="gcc -fdiagnostics-color=auto"
 alias git="git -c color.ui=auto"
 alias sys="systemctl --quiet --full"
@@ -53,3 +52,6 @@ alias kssh='kitten ssh'
 alias jcrun="javac Main.java && java Main"
 alias howto='gh copilot suggest'
 alias icat='kitten icat'
+alias lg='lazygit'
+alias svim='sudo nvim'
+alias gac='git add . && git commit'
