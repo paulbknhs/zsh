@@ -9,8 +9,8 @@ fi
 export PATH="/home/paul/.local/bin:/home/paul/.virtualenvs/:/home/paul/.local/bin/:home/paul/.config/awesome/rofi:$PATH"
 export ZSH_CONFIG=$HOME/.config/zsh
 export ZSH=$ZSH_CONFIG/oh-my-zsh
-export WINIT_X11_SCALE_FACTOR=1
-# export ZDOTDIR="$ZSH_CONFIG/antidote"
+#export WINIT_X11_SCALE_FACTOR=1
+export ZDOTDIR="$ZSH_CONFIG/antidote"
 source "$ZSH/oh-my-zsh.sh"
 source "$ZSH_CONFIG/plugins.zsh"
 source "$ZSH_CONFIG/alias.zsh"
