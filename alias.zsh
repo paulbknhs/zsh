@@ -62,3 +62,4 @@ alias doch='sudo $(fc -ln -1)'
 alias copycat='clipcopy'
 alias ze='zellij'
 alias clicker="sudo theclicker run -d"/dev/input/event5" -l272 -r273 -c1000 -C0 --grab"
+alias apti='sudo apt install -y'
