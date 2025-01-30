@@ -21,4 +21,4 @@ source "$ZSH_CONFIG/functions.zsh"
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /home/paul/.dart-cli-completion/zsh-config.zsh ]] && . /home/paul/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
-
+eval "$(zoxide init zsh)"

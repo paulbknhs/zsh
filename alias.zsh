@@ -58,3 +58,7 @@ alias gac='git add . && git commit'
 alias srm='sudo rm'
 alias '?'='git status'
 alias webshell='sshx --shell zsh'
+alias doch='sudo $(fc -ln -1)'
+alias copycat='clipcopy'
+alias ze='zellij'
+alias clicker="sudo theclicker run -d"/dev/input/event5" -l272 -r273 -c1000 -C0 --grab"

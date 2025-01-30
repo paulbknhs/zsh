@@ -92,3 +92,4 @@ deef() {
 sdo() {
     sudo $(fc -ln -1)
 }
+
