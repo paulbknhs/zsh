@@ -14,7 +14,7 @@ al() {
     echo "Failed to create empty alias."
   else
     echo "alias $alias='$command'" >> $ZSH_CONFIG/alias.zsh
-    exec zsh
+    source ~/.config/zsh/alias.zsh
     echo "Created alias $alias in $ZSH_CONFIG/alias.zsh"
   fi
 }
@@ -93,3 +93,7 @@ sdo() {
     sudo $(fc -ln -1)
 }
 
+set_proxy() {
+  export http_proxy='http://localhost:3300'
+  export https_proxy='http://localhost:3300'
+}
