@@ -40,7 +40,6 @@ alias ch='cheat -c'
 alias t='tmux'
 alias gitc='git clone'
 alias ic='kitten icat'
-alias tr='trash'
 alias status='sudo systemctl status'
 alias senable='sudo systemctl enable'
 alias sdisable='sudo systemctl disable'
@@ -69,3 +68,5 @@ alias dff="df -h | rg /dev/nvme0n1p5"
 alias neofetch='fastfetch'
 alias honeynet='nmcli connection up Honeynet'
 alias clean='rm ./**.class'
+
+alias vpn='sudo openconnect vpn-server.uni-hannover.de --user=SHW-5YM-W1@uni-hannover.de --passwd-on-stdin < ~/.config/openconnect/password.txt'
